@@ -1,60 +1,77 @@
 body {
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
 .services-header-img {
-  margin-top: 20px;
-  width: 100%;
+	margin-top: 20px;
+	width: 100%;
 }
 
 .services-tagline {
-
-  margin-top: 20px;
-  margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .tagline {
-  font-size: 30px;
+	font-size: 30px;
 }
 
 .box-layouts {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .learn-more-btn {
-  background-color: white;
-  width: 40%;
-  height: 35px;
-  border: 1px solid black;
-  margin-top: 20px;
-  border-radius: 5px;
+	background-color: white;
+	width: 40%;
+	height: 35px;
+	border: 1px solid black;
+	margin-top: 20px;
+	border-radius: 5px;
 }
 
 .box {
-  width: 48%;
-  padding: 20px;
-  border: 1px solid black;
-  background: #f4f3f4;
-  margin-bottom: 5%;
+	width: 48%;
+	padding: 20px;
+	border: 1px solid black;
+	background: #f4f3f4;
+	margin-bottom: 5%;
 }
 
-
-
 .facts-footer {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .footer-list {
-  padding: 20px;
-  margin-top: 5px;
-  list-style-type: square;
+	padding: 20px;
+	margin-top: 5px;
+	list-style-type: square;
 }
 
 .footer-left {
-  width: 50%;
+	width: 50%;
+}
+
+.services-info-img {
+	width: 48%;
+}
+@media (max-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+	.footer-left {
+		width: 100%;
+	}
+	.services-info-img {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.facts-footer {
+		flex-direction: column-reverse;
+	}
 }
